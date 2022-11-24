@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://Ashleygua.github.io/"
 languageCode = "en-us"
 title = "Hugo-HT"
 theme = "hugo-ht"
@@ -47,17 +47,17 @@ posts = "/posts/:year/:month/:day/:slug/"
     blogDirName = "posts"
     # singleLang = true
     defaultLang = "en"
-    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs" 
+    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
     MathJaxVersion = "2.7.5"
     favicon = "media/hugo-logo.png"
     # Edit by yourself:
-    GithubEdit = "https://github.com/USERNAME/REPONAME/edit/master/content/"
+    GithubEdit = "https://github.com/Ashleygua/Ashleygua.github.io/edit/master/content/"
     copyright = "&copy;"
     copyrightYear = "2020-2021"
     # Edit by yourself:
     GithubRepo = "https://github.com/USERNAME/REPONAME"
     # Edit by yourself:
-    ContentSource = "https://raw.githubusercontent.com/USERNAME/REPONAME/master/content/" 
+    ContentSource = "https://raw.githubusercontent.com/USERNAME/REPONAME/master/content/"
 
 [params.logo]
   # Change the logo picture as your prefer:
@@ -69,8 +69,8 @@ posts = "/posts/:year/:month/:day/:slug/"
 [params.lang]
 
     [params.lang.author]
-      en = "Your Name"
-      cn = "你的名字"
+      en = "Ashley"
+      cn = "毛月"
 
     [params.lang.madeWith]
       en = "Made with"
@@ -122,7 +122,7 @@ posts = "/posts/:year/:month/:day/:slug/"
     hardWraps = false
     unsafe = true
     xHTML = false
-  
+
   [markup.highlight]
     codeFences = true
     guessSyntax = false
