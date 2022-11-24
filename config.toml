@@ -41,7 +41,7 @@ posts = "/posts/:year/:month/:day/:slug/"
     weight = 3
 
 [params]
-    description = "Peronal website of Ashley Yue MAO"
+    description = "Peronal website of Ashley"
     homeText = "You just need a Hugo blog from scratch"
     # Please make sure `blogDirNmae` matches the name used in `menu` above:
     blogDirName = "posts"
@@ -69,7 +69,7 @@ posts = "/posts/:year/:month/:day/:slug/"
 [params.lang]
 
     [params.lang.author]
-      en = "Ashley Yue MAO"
+      en = "Ashley"
       cn = "毛月"
 
     [params.lang.madeWith]
