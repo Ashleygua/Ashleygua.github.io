@@ -53,11 +53,11 @@ posts = "/posts/:year/:month/:day/:slug/"
     # Edit by yourself:
     GithubEdit = "https://github.com/Ashleygua/Ashleygua.github.io/edit/master/content/"
     copyright = "&copy;"
-    copyrightYear = "2020-2021"
+    copyrightYear = "2022"
     # Edit by yourself:
-    GithubRepo = "https://github.com/USERNAME/REPONAME"
+    GithubRepo = "https://github.com/Ashleygua/Ashleygua.github.io"
     # Edit by yourself:
-    ContentSource = "https://raw.githubusercontent.com/USERNAME/REPONAME/master/content/"
+    ContentSource = "https://raw.githubusercontent.com/Ashleygua/Ashleygua.github.io/master/content/"
 
 [params.logo]
   # Change the logo picture as your prefer:
@@ -69,7 +69,7 @@ posts = "/posts/:year/:month/:day/:slug/"
 [params.lang]
 
     [params.lang.author]
-      en = "Ashley"
+      en = "Ashley Yue MAO"
       cn = "毛月"
 
     [params.lang.madeWith]
