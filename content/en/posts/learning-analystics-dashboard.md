@@ -9,13 +9,20 @@ I built an interactive R Shiny dashboard to explore student engagement, satisfac
 
 The dashboard allows users to filter by academic term, faculty, course modality, and international student status. It includes KPI cards, faculty-level satisfaction comparisons, modality-based assessment performance, course-level engagement and performance analysis, and a searchable data table.
 
-<div style="width: min(1200px, 96vw); margin: 1.5rem 50%; tranform: translateX(-50%);">
+<div style="
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+">
   <iframe
     src="https://ashleyym.shinyapps.io/learning-analytics-dashboard/"
     title="Learning Analytics Dashboard"
-    width="100%"
-    height="950"
-    style="border: 1px solid #ddd; border-radius: 8px;">
+    style="
+      width: 100%;
+      height: 950px;
+      border: 0;
+      display: block;
+    ">
   </iframe>
 </div>
 
