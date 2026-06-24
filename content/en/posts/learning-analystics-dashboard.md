@@ -1,11 +1,19 @@
 ---
-title: "Learning Analytics Dashboard | R Shiny"
+title: "Learning Analytics Dashboard | R Shiny, Power BI"
 date: 2026-06-24
 slug: "learning-analytics-dashboard"
 tags: ["R", "Shiny", "Learning Analytics", "Data Visualization", "Portfolio"]
 ---
 
-I built an interactive R Shiny dashboard to explore student engagement, satisfaction, assessment performance, and completion patterns using a synthetic learning analytics dataset.
+## Project Context
+
+I first developed this dashboard as a Power BI prototype to practice BI reporting, KPI design, interactive filtering, and dashboard layout. Since public Power BI embedding usually requires organizational publishing access, I recreated the dashboard in R Shiny so it could be shared publicly and used interactively.
+
+This project demonstrates both Power BI dashboard design skills and the ability to translate the same analytical workflow into a custom R Shiny web application.
+
+## Summary
+
+This interactive R Shiny dashboard explores student engagement, satisfaction, assessment performance, and completion patterns using a synthetic learning analytics dataset.
 
 The dashboard allows users to filter by academic term, faculty, course modality, and international student status. It includes KPI cards, faculty-level satisfaction comparisons, modality-based assessment performance, course-level engagement and performance analysis, and a searchable data table.
 
