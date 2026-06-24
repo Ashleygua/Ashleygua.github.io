@@ -47,12 +47,12 @@
        {{ end }}
      </ul>
      <div class="copyright-text">
-            {{ with .Site.Params.copyrightYear }}
-            {{ printf "%s–%s" . (now.Format "2006") | markdownify }}
+            {{ with .Site.Params.copyright }}
+            {{ .| markdownify }}
             {{ end }}
             {{ default (index $.Site.Params.lang.author $.Site.Params.defaultLang) (index $.Site.Params.lang.author $.Section) }}
             {{ with .Site.Params.copyrightYear }}
-            {{ .| markdownify }}
+            {{ printf "%s–%s" . (now.Format "2006") | markdownify }}
             {{ end }}
      </div>
 
