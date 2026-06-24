@@ -13,6 +13,8 @@ The dashboard allows users to filter by academic term, faculty, course modality,
   width: 100vw;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
+  padding: 0 16px;
+  box-sizing: border-box;
 ">
   <iframe
     src="https://ashleyym.shinyapps.io/learning-analytics-dashboard/"
@@ -20,7 +22,8 @@ The dashboard allows users to filter by academic term, faculty, course modality,
     style="
       width: 100%;
       height: 950px;
-      border: 0;
+      border: 1px solid #ddd;
+      border-radius: 8px;
       display: block;
     ">
   </iframe>
