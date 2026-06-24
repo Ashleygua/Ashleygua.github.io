@@ -17,8 +17,8 @@
        </li>
        {{ with .Site.Params.GithubRepo}}
        <li>
-        <a href='{{ . }}' class="footer-links-kudos" target="_blank"> 
-          {{ default (index $.Site.Params.Lang.sourceCode $.Site.Params.defaultLang) (index $.Site.Params.lang.sourceCode $.Section) }} 
+        <a href='{{ . }}' class="footer-links-kudos" target="_blank">
+          {{ default (index $.Site.Params.Lang.sourceCode $.Site.Params.defaultLang) (index $.Site.Params.lang.sourceCode $.Section) }}
           <i class="fa fa-github" style="font-size: 24px"></i>
         </a>
        </li>
@@ -41,14 +41,14 @@
         <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
        {{ end }}
         {{ default (index $.Site.Params.Lang.license $.Site.Params.defaultLang) (index $.Site.Params.lang.license $.Section) }}
-        <i class="fa fa-cc" aria-hidden="true" title="Attribution-NonCommercial-ShareAlike 4.0 International"></i> 
+        <i class="fa fa-cc" aria-hidden="true" title="Attribution-NonCommercial-ShareAlike 4.0 International"></i>
         </a>
        </li>
        {{ end }}
      </ul>
      <div class="copyright-text">
-            {{ with .Site.Params.copyright }}
-            {{ .| markdownify }}
+            {{ with .Site.Params.copyrightYear }}
+            {{ printf "%s–%s" . (now.Format "2006") | markdownify }}
             {{ end }}
             {{ default (index $.Site.Params.lang.author $.Site.Params.defaultLang) (index $.Site.Params.lang.author $.Section) }}
             {{ with .Site.Params.copyrightYear }}
@@ -57,6 +57,3 @@
      </div>
 
 </footer>
-
-
-
