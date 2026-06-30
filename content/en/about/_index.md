@@ -10,8 +10,6 @@ CV will be uploaded soon.
 
 ## Ashley Yue MAO
 
-I am currently a PhD student in Measurement, Evaluation and Research Methodology at the University of British Columbia.  
+PhD in Measurement, Evaluation and Research Methodology @ the University of British Columbia, completed March 2026.
 
-Email: yue.mao@ubc.ca  
-
-[LinkedIn](https://www.linkedin.com/in/%E6%9C%88-%E6%AF%9B-872350139/)  
+[LinkedIn](https://www.linkedin.com/in/%E6%9C%88-%E6%AF%9B-872350139/)
