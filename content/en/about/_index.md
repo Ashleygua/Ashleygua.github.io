@@ -4,7 +4,7 @@ type : list-single
 ---
 
 {{<block class="note">}}
-CV will be uploaded soon.
+[Download my CV](/files/Ashley_M_CV.pdf)
 {{<end>}}
 
 
