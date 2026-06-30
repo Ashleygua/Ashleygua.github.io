@@ -4,7 +4,7 @@ title = "Ashley's Blog"
 theme = "hugo-ht"
 footnotereturnlinkcontents = "↩"
 enableRobotsTXT = true
-# enableGitInfo = true
+enableGitInfo = true
 
 [permalinks]
 cn = "/cn/:year/:month/:day/:slug/"

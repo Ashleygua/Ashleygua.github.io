@@ -23,7 +23,7 @@ jobs:
           hugo-version: '0.79.1'
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --enableGitInfo
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
