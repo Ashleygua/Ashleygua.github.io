@@ -5,7 +5,7 @@ slug: "workshop-experience"
 tags: ["R", "Python", "Statistical Analysis", "Data Visualization"]
 ---
 
-A list of workshops that I delivered when worked as GAA for statistical analysis and data visualization.
+A list of workshops that I delivered when I worked as a GAA for statistical analysis and data visualization at UBC library research commons.
 
 - [Intro R](https://ubc-library-rc.github.io/IntroR/)
 - [Join Tables/Relation Data in R](https://ubc-library-rc.github.io/relational-data-r/)
